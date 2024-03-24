@@ -1,0 +1,2 @@
+# GetX
+ State management solution
