@@ -15,6 +15,7 @@ class _SliderViewState extends State<SliderView> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.amber,
         title: const Center(child: Text('Slider')),
       ),
       body: Stack(
