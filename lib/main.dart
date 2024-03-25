@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:getx/Views/Counter%20view/counter_view.dart';
+import 'package:getx/Views/Favourite%20view/favourite_view.dart';
 import 'package:getx/Views/Slider%20view/slider_view.dart';
 import 'package:getx/Views/Switch%20view/switch_button_view.dart';
 
@@ -19,6 +21,6 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: SwitchButtonView());
+        home: const FavouriteView());
   }
 }

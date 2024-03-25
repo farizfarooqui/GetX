@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:getx/Views/Slider%20view/slider_counter.dart';
+import 'package:getx/Views/Switch%20view/switch_button_view.dart';
 
 class SliderView extends StatefulWidget {
   const SliderView({super.key});
@@ -38,6 +39,13 @@ class _SliderViewState extends State<SliderView> {
                         })));
           }),
         ],
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Get.to(const SwitchButtonView());
+        },
+        child:
+            const Padding(padding: EdgeInsets.all(3), child: Text('Next Page')),
       ),
     );
   }

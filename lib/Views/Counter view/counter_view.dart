@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:getx/Views/Counter%20view/counter_counter.dart';
+import 'package:getx/Views/Slider%20view/slider_view.dart';
 
 class CounterView extends StatefulWidget {
   const CounterView({super.key});
@@ -46,6 +47,13 @@ class _CounterViewState extends State<CounterView> {
                 counterController.decrement();
               },
               child: const Icon(Icons.remove),
+            ),
+            FloatingActionButton(
+              onPressed: () {
+                Get.to(const SliderView());
+              },
+              child: const Padding(
+                  padding: EdgeInsets.all(5), child: Text('Next Page')),
             ),
           ],
         ),
