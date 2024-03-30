@@ -5,11 +5,9 @@ class CounterController extends GetxController {
 
   increment() {
     counter.value++;
-    print(counter);
   }
 
   decrement() {
     counter.value--;
-    print(counter);
   }
 }

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
 import 'package:getx/Views/Favourite%20view/favourite_controller.dart';
 
@@ -43,6 +42,12 @@ class _FavouriteViewState extends State<FavouriteView> {
                               : Colors.grey)),
                 ));
           }),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          
+        },
+        child: const Icon(Icons.arrow_forward),
+      ),
     );
   }
 }

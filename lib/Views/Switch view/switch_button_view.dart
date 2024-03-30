@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:getx/Views/Favourite%20view/favourite_view.dart';
 import 'package:getx/Views/Switch%20view/switch_controller.dart';
 
 class SwitchButtonView extends StatefulWidget {
@@ -31,6 +32,12 @@ class _SwitchButtonViewState extends State<SwitchButtonView> {
                     }),
               ))
         ],
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Get.to(const FavouriteView());
+        },
+        child: const Icon(Icons.arrow_forward),
       ),
     );
   }

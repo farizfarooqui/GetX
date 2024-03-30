@@ -52,8 +52,7 @@ class _CounterViewState extends State<CounterView> {
               onPressed: () {
                 Get.to(const SliderView());
               },
-              child: const Padding(
-                  padding: EdgeInsets.all(5), child: Text('Next Page')),
+              child: const Icon(Icons.arrow_forward),
             ),
           ],
         ),

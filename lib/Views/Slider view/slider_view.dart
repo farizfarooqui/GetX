@@ -44,8 +44,7 @@ class _SliderViewState extends State<SliderView> {
         onPressed: () {
           Get.to(const SwitchButtonView());
         },
-        child:
-            const Padding(padding: EdgeInsets.all(3), child: Text('Next Page')),
+        child: const Icon(Icons.arrow_forward),
       ),
     );
   }
