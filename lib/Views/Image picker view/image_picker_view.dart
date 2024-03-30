@@ -23,6 +23,7 @@ class _ImagePickerViewState extends State<ImagePickerView> {
         child: Text('Hello ! from Fariz'),
       ),
       drawer: Drawer(
+        width: Get.width * 0.8,
         child: Padding(
           padding: const EdgeInsets.only(
             top: 40,
@@ -38,6 +39,7 @@ class _ImagePickerViewState extends State<ImagePickerView> {
                     },
                     child: Obx(
                       () => CircleAvatar(
+                          radius: 30,
                           backgroundColor: Colors.grey,
                           backgroundImage: imagePickerController
                                   .imagePath.isNotEmpty

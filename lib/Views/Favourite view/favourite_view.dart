@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:getx/Views/Favourite%20view/favourite_controller.dart';
+import 'package:getx/Views/Image%20picker%20view/image_picker_view.dart';
 
 class FavouriteView extends StatefulWidget {
   const FavouriteView({super.key});
@@ -44,7 +45,7 @@ class _FavouriteViewState extends State<FavouriteView> {
           }),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          
+          Get.to(const ImagePickerView());
         },
         child: const Icon(Icons.arrow_forward),
       ),
