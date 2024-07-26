@@ -19,10 +19,11 @@ class _CounterViewState extends State<CounterView> {
       appBar: AppBar(
         backgroundColor: Colors.amber,
         title: const Center(
-            child: Text(
-          'Counter',
-          style: TextStyle(fontSize: 16),
-        )),
+          child: Text(
+            'Counter',
+            style: TextStyle(fontSize: 16),
+          ),
+        ),
       ),
       body: Center(
         child: Obx(() {
