@@ -50,7 +50,7 @@ class _ImagePickerViewState extends State<ImagePickerView> {
                 title: const Text('Fariz Farooqui'),
                 subtitle: const Text('farizfarooqui104@gmail.com'),
               ),
-              const Divider()
+              const Divider(),
             ],
           ),
         ),
